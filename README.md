@@ -56,13 +56,24 @@ whoami works in two passes, combined into one profile:
 
 ## Quickstart
 
-### Install
+### Install (recommended — Claude Code plugin)
 
-Clone the repo and symlink it into your Claude Code skills directory:
+Add the marketplace and install in two commands inside Claude Code:
+
+```
+/plugin marketplace add luckeyfaraday/whoami
+/plugin install whoami@luckeyfaraday
+```
+
+That's it — `/whoami` is now available. Update later with `/plugin marketplace update luckeyfaraday`.
+
+### Install (manual / for hacking on it)
+
+Clone the repo and symlink the skill into your Claude Code skills directory:
 
 ```bash
 git clone https://github.com/luckeyfaraday/whoami.git
-ln -sfn "$PWD/whoami" ~/.claude/skills/whoami
+ln -sfn "$PWD/whoami/skills/whoami" ~/.claude/skills/whoami
 ```
 
 ### Use

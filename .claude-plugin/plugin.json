@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "whoami",
+  "displayName": "whoami",
+  "version": "0.1.0",
+  "description": "Scans your machine and interviews you to build a portable profile, giving any AI coding agent instant context about who you are.",
+  "author": {
+    "name": "luckeyfaraday",
+    "url": "https://github.com/luckeyfaraday"
+  },
+  "homepage": "https://github.com/luckeyfaraday/whoami",
+  "repository": "https://github.com/luckeyfaraday/whoami",
+  "license": "MIT",
+  "keywords": [
+    "context",
+    "onboarding",
+    "agent-memory",
+    "developer-profile",
+    "ai-agents",
+    "productivity"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "luckeyfaraday",
+  "description": "Plugins by luckeyfaraday for Claude Code.",
+  "owner": {
+    "name": "luckeyfaraday",
+    "url": "https://github.com/luckeyfaraday"
+  },
+  "plugins": [
+    {
+      "name": "whoami",
+      "source": "./",
+      "description": "Scans your machine and interviews you to build a portable profile, giving any AI coding agent instant context about who you are.",
+      "license": "MIT",
+      "category": "productivity",
+      "tags": [
+        "context",
+        "onboarding",
+        "agent-memory",
+        "developer-profile"
+      ]
+    }
+  ]
+}

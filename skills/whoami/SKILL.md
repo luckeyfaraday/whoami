@@ -17,10 +17,11 @@ Never invent facts. Scan tells you *what*; the interview tells you *why*. Where 
 
 Run the bundled scanner and read its output. It only emits dev/work signals + normal-file structure, and redacts anything matching secret patterns.
 
+`scan.sh` lives in **this skill's own directory** (the base directory shown when the skill loads, e.g. `<skill-dir>/scan.sh`). Use that path — it works whether the skill is installed as a plugin or symlinked manually. If `$CLAUDE_PLUGIN_ROOT` is set, the script is at `$CLAUDE_PLUGIN_ROOT/skills/whoami/scan.sh`.
+
 ```bash
-# scan.sh lives next to this SKILL.md (~/.claude/skills/whoami/scan.sh).
-bash ~/.claude/skills/whoami/scan.sh                      # full scan
-bash ~/.claude/skills/whoami/scan.sh --max-repos 40 --depth 2   # cap noise on huge machines
+bash "<skill-dir>/scan.sh"                      # full scan
+bash "<skill-dir>/scan.sh" --max-repos 40 --depth 2   # cap noise on huge machines
 ```
 
 Sections it returns: Identity, System, Toolchains & languages, Installed packages, Git repositories, Editor/dotfile config, Claude Code context (incl. authored MEMORY.md files), **AI agent sessions across CLIs** (Claude, Codex, Droid/Factory, OpenCode, Gemini, Qwen — counts, recent project dirs, recent prompts), Shell history (most-used + recent), Home folder structure, Recently modified files.
