@@ -1,5 +1,16 @@
 # whoami
 
+<p align="center">
+  <a href="./LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg"></a>
+  <a href="https://github.com/luckeyfaraday/whoami/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/luckeyfaraday/whoami?style=flat"></a>
+  <a href="https://github.com/luckeyfaraday/whoami/commits/main"><img alt="Last commit" src="https://img.shields.io/github/last-commit/luckeyfaraday/whoami"></a>
+  <a href="https://github.com/luckeyfaraday/whoami/issues"><img alt="Issues" src="https://img.shields.io/github/issues/luckeyfaraday/whoami"></a>
+  <img alt="Claude Code skill" src="https://img.shields.io/badge/Claude%20Code-skill-7C5CFF">
+  <img alt="Shell" src="https://img.shields.io/badge/shell-bash-4EAA25?logo=gnu-bash&logoColor=white">
+  <img alt="No network calls" src="https://img.shields.io/badge/network-zero%20calls-success">
+  <a href="#contributing"><img alt="PRs welcome" src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg"></a>
+</p>
+
 > A Claude Code skill that builds a complete, portable picture of who you are and
 > what you do — so any agent can load instant context instead of starting cold.
 
