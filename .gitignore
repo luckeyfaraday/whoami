@@ -1,0 +1,20 @@
+# Local agent / workspace machinery (never publish)
+.context-workspace/
+.claude/
+.athena/
+.hermes/
+
+# whoami output (generated per-machine, may contain personal data)
+.whoami/
+profile.md
+scan-raw.txt
+
+# OS / editor cruft
+.DS_Store
+*.swp
+*~
+
+# Deps / build
+node_modules/
+__pycache__/
+*.log
