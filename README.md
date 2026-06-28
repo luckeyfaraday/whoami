@@ -1,4 +1,6 @@
-# whoami
+<p align="center">
+  <img src="./assets/banner.png" alt="whoami — an agentic identity skill" width="100%">
+</p>
 
 <p align="center">
   <a href="./LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg"></a>
